@@ -1,0 +1,1224 @@
+@font-face {
+    font-family: "FontAwesome";
+    src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.eot");
+    src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.eot") format("embedded-opentype"),
+    url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2") format("woff2"),
+    url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff") format("woff"),
+    url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf") format("truetype"),
+    url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.svg#fontawesomeregular") format("svg");
+}
+
+@font-face {
+    font-family: "Gotham-Bold";
+    src: url("fonts/Gotham-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Gotham - Book";
+    src: url("fonts/Gotham-Book.woff2") format("woff2"),
+    url("fonts/Gotham-Book.woff") format("woff"):
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Gotham - Book";
+    background-color: #f3f1f2;
+}
+
+.main-header {
+    margin: 0 auto;
+    max-width: 1280px;
+    height: 450px;
+    background-image: url(../img/search_bg_3.png), url(../img/search_bg_2.png), url(../img/search_bg_1.png);
+    background-repeat: no-repeat;
+
+}
+
+.main-navigation {
+    margin: 0 auto;
+
+}
+
+.main-navigation nav {
+    background-color: white;
+    height: 75px;
+}
+
+.main-menu {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.main-menu img {
+    position: relative;
+    top: 15px;
+}
+
+.main-menu ul {
+    text-align: right;
+    margin-top: -21px;
+
+
+}
+
+.main-menu ul li {
+    list-style: none;
+    display: inline;
+
+
+}
+
+
+.main-menu ul li:nth-last-child(1) {
+    position: relative;
+    margin-left: -4px;
+
+}
+
+.main-menu ul li a {
+    color: #96a6a7;
+    text-decoration: none;
+    margin-left: 22px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.main-menu ul li a:hover {
+    color: #e94e38;
+
+}
+
+.main-menu ul li:nth-last-child(1) a {
+    color: white;
+}
+
+.search {
+    padding-left: 6px;
+    padding-right: 28px;
+    padding-top: 30px;
+    padding-bottom: 28px;
+    background-color: #e2dee0;
+
+}
+
+.search a i {
+    color: white;
+
+}
+
+.login {
+    background-color: #e94e38;
+    padding-left: 6px;
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 28px;
+
+}
+
+
+.main-text {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.main-text h1 {
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(0, 0, 1, 0.15);
+    color: #ffffff;
+    font-family: "Gotham-Bold";
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.main-text form {
+    text-align: center;
+}
+
+.main-text form p select {
+    width: 220px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 25px;
+    background-color: rgba(255, 255, 252, 0.1);
+    color: #ffffff;
+    font-family: "Gotham - Book";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-left: 20px;
+
+}
+
+.main-text form p select:nth-child(2) {
+    margin-left: 28px;
+}
+
+.main-text form p select option {
+    color: black;
+}
+
+.main-text form p input[type="text"] {
+    width: 470px;
+    height: 55px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 25px;
+    background-color: rgba(255, 255, 252, 0.1);
+    margin-top: 25px;
+    margin-bottom: 15px
+}
+
+.main-text form p input[type="text"]::placeholder {
+    padding-left: 20px;
+    color: #ffffff;
+    font-family: "Gotham - Book";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.main-text form p input[type="submit"] {
+    width: 140px;
+    height: 60px;
+    box-shadow: 0 2px 0 #c1412e;
+    background-color: #e94e38;
+    border-radius: 30px;
+    border: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 1, 0.15);
+    color: #ffffff;
+    font-family: "Gotham-Bold";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+
+.main-filter {
+    height: 50px;
+    border-bottom: 1px solid #edebec;
+    padding-bottom: 6px;
+}
+
+.main-sort {
+    width: 980px;
+    margin: 9px auto;
+}
+
+.main-sort ul {
+    display: inline;
+    padding-left: 5px;
+}
+
+.main-sort ul li {
+    display: inline-block;
+    color: #96a6a7;
+    margin-right: 20px;
+
+
+}
+
+.main-sort ul li:nth-last-child(1) {
+    margin-right: 95px;
+
+}
+
+.main-sort ul li a {
+    text-decoration: none;
+    color: #96a6a7;
+    font-family: "Gotham-Bold";
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 48px;
+    text-transform: uppercase;
+
+}
+
+.main-sort ul li a:hover {
+    color: #e94e38;
+}
+
+.main-sort form {
+    display: inline-block;
+}
+
+.main-sort form select {
+    width: 115px;
+    height: 35px;
+    border: 1px solid #96a6a7;
+    border-radius: 25px;
+    color: #e94e38;
+    font-family: "Gotham-Bold";
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 48px;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+
+.main-btn-map {
+    position: relative;
+    margin-right: 73px;
+    border-radius: 25px;
+    width: 125px;
+    height: 35px;
+    border: 1px solid #96a6a7;
+    background-color: #fff;
+    opacity: 0.5;
+    margin-left: 12px;
+
+}
+
+.main-btn-map:after {
+    content: "\f041";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    position: relative;
+    padding-left: 10px;
+    color: #96a6a7;
+    text-transform: uppercase;
+
+
+}
+
+.main-sort p {
+    display: inline;
+    color: #96a6a7;
+    font-family: "Gotham-Bold";
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 48px;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+
+.main-filter-btn {
+    display: inline;
+
+}
+
+.filter-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: 0;
+    margin-right: 2px;
+}
+
+.filter-btn:nth-child(1):hover {
+    background-color: #1baf5d;
+}
+
+.filter-btn:nth-child(2):hover {
+    background-color: #1baf5d;
+}
+
+.filter-btn:nth-child(3):hover {
+    background-color: #1baf5d;
+}
+
+.filter-btn:nth-child(4):hover {
+    background-color: #f19e1f;
+}
+
+.filter-btn:nth-child(5):hover {
+    background-color: #88499c;
+}
+
+.filter-btn i {
+    color: white;
+    font-size: 19px;
+}
+
+.main-posts {
+    background-color: #f3f1f2;
+
+
+}
+
+.posts-frame {
+    margin: 0 auto;
+    width: 980px;
+    padding-top: 45px;
+    border-bottom: 1px solid #e2dee0;
+
+}
+
+.main-post-s {
+    display: inline-block;
+    position: relative;
+    width: 210px;
+    height: 270px;
+    box-shadow: 0 1px 0 #e2dee0;
+    background-color: #fff;
+    margin: 0 15px 20px;
+    overflow: hidden;
+
+
+}
+
+
+.main-post-l {
+    position: relative;
+    width: 455px;
+    height: 270px;
+    box-shadow: 0 1px 0 #e2dee0;
+    background-color: #ffffff;
+    display: inline-block;
+    margin: 0 15px 20px;
+    overflow: hidden;
+}
+
+.stars::before {
+    content: "\f005\f005\f005\f005\f006";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #f19e1f;
+
+
+}
+
+.stars-l {
+    height: 10px;
+    position: absolute;
+    left: 250px;
+    top: 14px
+}
+
+
+
+.stars-l::before {
+    content: "\f005\f005\f005\f005\f006";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #f19e1f;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 48px;
+
+
+}
+
+
+.stars-overlay {
+    margin-left: 36px;
+}
+
+.stars-overlay::after {
+    content: "\f0e6";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    background-color: transparent;
+    color: #fff;
+    padding-left: 25px;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.stars-overlay::before {
+    content: "\f006\f006\f006\f006\f006";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    background-color: transparent;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.green::before {
+    content: "\f015";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    /*--adjust as necessary--*/
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    top: 115px;
+    left: 80px;
+    background-color: #1baf5d;
+    box-shadow: 0px 0px 0px 3px rgba(247, 247, 247, 1);
+    border-radius: 25px;
+    padding: 9px 12px 12px 12px;
+    z-index: 1;
+
+}
+
+.green-l::before {
+    content: "\f015";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    /*--adjust as necessary--*/
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    top: 103px;
+    left: 22px;
+    background-color: #1baf5d;
+    box-shadow: 0px 0px 0px 3px rgba(247, 247, 247, 1);
+    border-radius: 25px;
+    padding: 9px 12px 12px 12px;
+    z-index: 2;
+}
+
+
+.orange::before {
+    content: "\f001";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    /*--adjust as necessary--*/
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    top: 115px;
+    left: 80px;
+    background-color: #f19e1f;
+    box-shadow: 0px 0px 0px 3px rgba(247, 247, 247, 1);
+    border-radius: 255px;
+    padding: 9px 12px 12px 12px;
+    z-index: 1;
+}
+
+.orange-l::before {
+    content: "\f001";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    top: 103px;
+    left: 22px;
+    background-color: #f19e1f;
+    box-shadow: 0px 0px 0px 3px rgba(247, 247, 247, 1);
+    border-radius: 255px;
+    padding: 9px 12px 12px 12px;
+    z-index: 2;
+}
+
+.purple::before {
+    content: "\f207";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    /*--adjust as necessary--*/
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    top: 115px;
+    left: 80px;
+    background-color: #88499c;
+    box-shadow: 0px 0px 0px 3px rgba(247, 247, 247, 1);
+    border-radius: 255px;
+    padding: 9px 12px 12px 12px;
+    z-index: 1;
+
+}
+
+.post-s-overlay {
+    display: none;
+    position: absolute;
+    width: 210px;
+    height: 143px;
+    left: 0;
+    top: 0;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.post-l-overlay {
+    display: none;
+    position: absolute;
+    width: 455px;
+    height: 123px;
+    left: 0;
+    top: 0;
+    opacity: 0.9;
+    cursor: pointer;
+
+
+}
+
+.prise {
+    position: absolute;
+    width: 65px;
+    height: 25px;
+    color: #fff;
+    background-color: #1baf5d;
+    border-radius: 20px;
+    margin-left: 137px;
+    margin-top: 7px;
+    text-align: center;
+}
+
+.prise p {
+    margin-top: 3px;
+}
+
+.post-s-overlay button {
+    /* Style for "Rounded Re" */
+    width: 137px;
+    height: 31px;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    background-color: transparent;
+    margin-top: 25px;
+    margin-left: 36px;
+    cursor: pointer;
+    color: white;
+    color: #ffffff;
+    font-family: Gotham;
+    font-size: 12px;
+    font-weight: 500;
+
+    text-transform: uppercase;
+}
+
+.post-l-overlay button {
+    /* Style for "Rounded Re" */
+    width: 137px;
+    height: 31px;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    background-color: transparent;
+    margin-top: 25px;
+    margin-left: 36px;
+    cursor: pointer;
+    color: white;
+    color: #ffffff;
+    font-family: Gotham;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-left: 160px;
+}
+
+.post-l-overlay p {
+    margin-left: 160px;
+}
+
+.post-s-overlay button:before {
+    content: "\f002";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #fff;
+    padding-right: 10px;
+
+}
+
+.post-l-overlay button:before {
+    content: "\f002";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #fff;
+    padding-right: 10px;
+
+}
+
+
+.gradient {
+    position: absolute;
+    top: 70px;
+    width: 455px;
+    height: 50px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7) 29%, rgba(0, 0, 0, 0) 100%);
+    z-index: 1;
+    color: white;
+}
+
+.gradient-header {
+    position: relative;
+    left: 95px;
+    top: -3px;
+    text-shadow: 0 1px 1px rgba(0, 0, 1, 0.15);
+    color: #ffffff;
+    font-family: Gotham;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+
+.gradient p {
+    position: relative;
+    top: -61px;
+    left: 60px;
+    font-family: Gotham;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 48px;
+
+}
+
+.post-s-overlay button:active {
+    background-color: #31312F;
+}
+
+.post-l-overlay button:active {
+    background-color: #31312F;
+}
+
+.bg-g {
+    background-color: #1baf5d;
+}
+
+.head-g {
+    color: #1baf5d !important;
+}
+
+.bg-o {
+    background-color: #f19e1f;
+}
+
+.head-o {
+    color: #f19e1f !important;
+}
+
+.bg-p {
+    background-color: #88499c;
+}
+
+.head-p {
+    color: #88499c !important;
+}
+
+
+.post-img-s:hover .post-s-overlay {
+    display: block;
+}
+
+.post-img-s:hover .prise {
+    display: none;
+}
+
+.post-img-l:hover .post-l-overlay {
+    display: block;
+}
+
+.post-img-l:hover .gradient {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 29%, rgba(0, 0, 0, 0) 100%);
+}
+
+.post-img-l:hover .gradient {
+    display: none;
+}
+
+.green-border {
+    border-bottom: 3px solid #1baf5d;
+}
+
+.orange-border {
+    border-bottom: 3px solid #f19e1f;
+}
+
+.purple-border {
+    border-bottom: 3px solid #88499c;
+}
+
+.post-text-s {
+    text-align: center;
+
+}
+
+.post-text-l {
+    position: relative;
+    margin-left: 98px;
+    margin-right: 25px;
+}
+
+.post-text-l h2 {
+    margin-top: -20px;
+    margin-bottom: -20px;
+    color: #566375;
+    font-family: "Gotham";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+
+.post-text-l p:nth-child(1) {
+    margin-top: 20;
+    margin-bottom: 17;
+}
+
+.text-l {
+    color: #566375;
+    font-family: "Gotham - Book";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+
+
+}
+
+.text-link {
+    position: absolute;
+    left: 105px;
+    top: 96px;
+    color: #566375;
+    font-family: "Gotham";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+
+
+}
+
+.lage-head-frame {
+    position: relative;
+    background-color: #f3f1f2;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    top: -95px;
+    left: 18px;
+    border: 1ps solid #f3f1f2;
+
+}
+
+.lage-head-frame::before {
+    content: "|";
+    color: #f3f1f2;
+    position: absolute;
+    top: -20px;
+    left: 28px;
+}
+
+.lage-head {
+    position: relative;
+    top: 2px;
+    left: 3px;
+    z-index: 1;
+}
+
+.post-text-s p {
+    margin: 0;
+    padding: 0;
+}
+
+.post-text-s p:nth-child(1) {
+    margin-top: 30px;
+    margin-bottom: -10px;
+    color: #566375;
+    font-family: "Gotham-Bold";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px
+}
+
+.post-text-s p:nth-child(2) {
+    margin-bottom: -15px;
+    color: #1baf5d;
+    font-family: "Gotham-Bold";
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+
+.post-text-s p:nth-child(3) {
+    margin-top: -32px;
+    color: #96a6a7;
+    font-family: "Gotham-Bold";
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+
+.load-more {
+    text-align: center;
+    color: #566375;
+    margin-bottom: 0;
+    font-family: Gotham;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 48px;
+    text-decoration: underline;
+
+}
+
+.load-more:after {
+    content: " \2192";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #566375;
+    text-decoration: none;
+}
+
+.main-offer {
+    background-color: #f3f1f2;
+    margin-bottom: 140px;
+    ;
+
+}
+
+.main-offer-container {
+    margin: 0 auto;
+    width: 980px;
+    overflow: hidden;
+}
+
+.main-offer-container h2:nth-child(1) {
+    color: #566375;
+    font-family: "Gotham";
+    font-size: 22px;
+    line-height: 48px;
+    text-align: center;
+    padding-top: 88px;
+}
+
+.main-offer-container h2:nth-child(4) {
+    color: #1baf5d;
+    font-family: Gotham;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.main-offer-container p:nth-child(2) {
+    color: #96a6a7;
+    font-family: Gotham - Book;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 0;
+
+}
+
+.offer-list {
+    position: relative;
+    width: 760px;
+    margin: 0 auto;
+
+
+}
+
+.offer-list ul {
+    position: relative;
+    margin-top: 65px;
+    padding-left: 0;
+
+}
+
+.offer-list ul li {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border: 1px solid #9dacad;
+    border-radius: 50%;
+    margin-right: 58px;
+}
+
+.offer-list ul li:nth-last-child(1) {
+    margin-right: 0;
+}
+
+.offer-list ul li:hover {
+    border: 1px solid #1baf5d;
+
+}
+
+.offer-list ul li:hover:nth-child(n)::after {
+    color: #1baf5d;
+}
+
+.offer-list ul li:nth-child(1)::after {
+    content: "\f015";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    /*--adjust as necessary--*/
+    color: #9dacad;
+    font-size: 40px;
+    position: absolute;
+    top: 29px;
+    left: 32px;
+
+}
+
+.offer-list ul li:nth-child(2)::after {
+    content: "\f007";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    /*--adjust as necessary--*/
+    color: #9dacad;
+    font-size: 40px;
+    position: absolute;
+    top: 29px;
+    left: 36px;
+
+}
+
+.offer-list ul li:nth-child(3)::after {
+    content: "\f19d";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    /*--adjust as necessary--*/
+    color: #9dacad;
+    font-size: 40px;
+    position: absolute;
+    top: 29px;
+    left: 28px;
+
+}
+
+.offer-list ul li:nth-child(4)::after {
+    content: "\f001";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    /*--adjust as necessary--*/
+    color: #9dacad;
+    font-size: 40px;
+    position: absolute;
+    top: 29px;
+    left: 29px;
+
+}
+
+.offer-list ul li:nth-child(5)::after {
+    content: "\f207";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    /*--adjust as necessary--*/
+    color: #9dacad;
+    font-size: 40px;
+    position: absolute;
+    top: 29px;
+    left: 32px;
+
+}
+
+.offer-list ul li::before {
+    content: "";
+    width: 53px;
+    height: 2px;
+    background-color: #e2dee0;
+    padding-right: 5px;
+    position: absolute;
+    top: 50px;
+    left: -61px;
+
+}
+
+.offer-list ul li:nth-child(1)::before {
+    content: none;
+
+
+}
+
+
+.p-container-offer {
+    position: relative;
+    width: 760px;
+    margin: 0 auto;
+
+
+}
+
+.p-left {
+    position: relative;
+    width: 50%;
+    float: left;
+
+
+}
+
+.p-left::before {
+    content: "\f0e7";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    /*--adjust as necessary--*/
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #1baf5d;
+    box-shadow: 0px 0px 0px 3px rgba(247, 247, 247, 1);
+    border-radius: 50%;
+    padding: 17px 25px 17px 25px;
+
+
+}
+
+.p-left p {
+    margin-top: 0;
+    padding-left: 95px;
+
+    color: #566375;
+    font-family: "Gotham - Book";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.p-right {
+    position: relative;
+    width: 50%;
+    float: right;
+
+}
+
+.p-right::before {
+    content: "\f06c";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    /*--adjust as necessary--*/
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #1baf5d;
+    box-shadow: 0px 0px 0px 3px rgba(247, 247, 247, 1);
+    border-radius: 50%;
+    padding: 15px 18px 19px 18px;
+
+
+}
+
+.p-right p {
+    margin-top: 0;
+    padding-left: 95px;
+    color: #566375;
+    font-family: "Gotham - Book";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+footer {
+    margin: 0 auto;
+    max-width: 1280px;
+    height: 450px;
+    background-image: url(../img/search_bg_3.png), url(../img/search_bg_2.png), url(../img/search_bg_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.footer-content {
+    margin: 0 auto;
+    width: 980px;
+
+}
+
+.main-subscribe {
+    text-align: center;
+    padding-top: 47px;
+    position: relative;
+}
+.main-subscribe input[type="text"] {
+    width: 492px;
+    height: 60px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+    background-color: rgba(255, 255, 252, 0.1);
+    margin-top: 25px;
+    margin-bottom: 15px;
+    
+}
+
+.main-subscribe input[type="text"]::placeholder {
+    position: relative;
+    padding-left: 20px;
+    color: #ffffff;
+    font-family: "Gotham - Book";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+.main-subscribe input[type="submit"] {
+    position: absolute;
+    top: 78px;
+    left: 610px;
+    width: 120px;
+    height: 52px;
+    box-shadow: 0 2px 0 #c1412e;
+    background-color: #e94e38;
+    border-radius: 30px;
+    border: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 1, 0.15);
+    color: #ffffff;
+    font-family: "Gotham - Book";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+
+.footer-content h3 {
+    color: #ffffff;
+    font-family: Gotham;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: underline;
+}
+
+.footer-content h2 {
+    text-shadow: 0 1px 1px rgba(0, 0, 1, 0.15);
+    color: #ffffff;
+    font-family: Gotham;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 61px;
+}
+
+
+
+.footer-col div {
+    float: left;
+}
